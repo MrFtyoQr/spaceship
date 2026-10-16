@@ -66,6 +66,6 @@ public class GameHUD : MonoBehaviour
             healthSlider.value = current;
         }
         if (healthText != null)
-            healthText.text = $"HP: {current:0}/{max:0}";
+            healthText.text = $"Vida: {current:0}/{max:0}";
     }
 }
