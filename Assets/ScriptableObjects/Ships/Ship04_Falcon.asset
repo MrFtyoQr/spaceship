@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13e8a1a4df0cd04daed9d35d1b8031e, type: 3}
+  m_Name: Ship04_Falcon
+  m_EditorClassIdentifier: Assembly-CSharp::ShipData
+  shipName: Falcon
+  shipIndex: 3
+  prefab: {fileID: 1334386197970460407, guid: e788fcc5274845842bc2034a108d4b65, type: 3}
+  icon: {fileID: 2098378658, guid: 52b6931cabbfbb74f9d9ee4e0e52fe59, type: 3}
+  description: A balanced ship with powerful shots.
+  moveSpeed: 6
+  rotationSpeed: 300
+  fireRate: 3
+  bulletDamage: 1.5
+  bulletSpeed: 10.9
+  maxHealth: 80
+  unlockCost: 2000

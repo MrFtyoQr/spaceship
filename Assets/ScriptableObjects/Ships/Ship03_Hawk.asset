@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13e8a1a4df0cd04daed9d35d1b8031e, type: 3}
+  m_Name: Ship03_Hawk
+  m_EditorClassIdentifier: Assembly-CSharp::ShipData
+  shipName: Hawk
+  shipIndex: 2
+  prefab: {fileID: 1380577319939726933, guid: eedfef2f24a5e8341859adcf6a169bcb, type: 3}
+  icon: {fileID: -1945868233, guid: 0fbebffa307ba9349bb5aff00c9ce393, type: 3}
+  description: A slow but tough ship with powerful shots.
+  moveSpeed: 4.5
+  rotationSpeed: 300
+  fireRate: 4
+  bulletDamage: 1
+  bulletSpeed: 10.6
+  maxHealth: 120
+  unlockCost: 1000

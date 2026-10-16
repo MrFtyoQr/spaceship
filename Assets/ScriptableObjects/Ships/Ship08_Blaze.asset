@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13e8a1a4df0cd04daed9d35d1b8031e, type: 3}
+  m_Name: Ship08_Blaze
+  m_EditorClassIdentifier: Assembly-CSharp::ShipData
+  shipName: Blaze
+  shipIndex: 7
+  prefab: {fileID: 1078619433951412925, guid: 052c912357ef23d4695f5e2ff0cc1584, type: 3}
+  icon: {fileID: 1435521033, guid: c6e0acd00825c8a448afe76365e5662b, type: 3}
+  description: A slow but tough ship with rapid fire.
+  moveSpeed: 4
+  rotationSpeed: 300
+  fireRate: 6
+  bulletDamage: 0.7
+  bulletSpeed: 12.1
+  maxHealth: 150
+  unlockCost: 10000

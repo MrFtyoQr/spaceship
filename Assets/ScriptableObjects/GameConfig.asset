@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9634bd0a359e15f42a1a7333bc0debb4, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::GameConfig
+  allShips:
+  - {fileID: 11400000, guid: 336155f87b76d8246aaaccf3e687b75b, type: 2}
+  - {fileID: 11400000, guid: a1700d2aa5db0a44e985e34f282ed19d, type: 2}
+  - {fileID: 11400000, guid: 505b490c88c4a3f44b91bb06751f9db4, type: 2}
+  - {fileID: 11400000, guid: 2f131342952f8c342b7c04b03233198d, type: 2}
+  - {fileID: 11400000, guid: e9611eb922a70fb44b1ca3229544e463, type: 2}
+  - {fileID: 11400000, guid: 8e04a2145b72603428e7877553faaeff, type: 2}
+  - {fileID: 11400000, guid: 08148a99e7ca593488059ea17ad36ead, type: 2}
+  - {fileID: 11400000, guid: 171e4c21622e8fb4db2bf2bfa8abaf50, type: 2}
+  - {fileID: 11400000, guid: 2efab7a9f1f841648930c29cf9640931, type: 2}
+  - {fileID: 11400000, guid: 04cfaad5c9a867a4a9b188cc7f92f1df, type: 2}
+  - {fileID: 11400000, guid: b88401cab62ccac46ba440d70d84ef35, type: 2}
+  - {fileID: 11400000, guid: 940edc9284c66d346a2c2ba83139afb5, type: 2}
+  - {fileID: 11400000, guid: 8075b9dfef5e113468aef1ccf12948c4, type: 2}
+  - {fileID: 11400000, guid: 3bcd57acf7049c645ae596e53d2d7a48, type: 2}
+  - {fileID: 11400000, guid: db87b56dd3db961408fc0d47cf75045a, type: 2}
+  - {fileID: 11400000, guid: 99cf3a734ae532243a268670e5b9f7d3, type: 2}
+  - {fileID: 11400000, guid: 9eb4444dd033c6440a482b0504ff6b83, type: 2}
+  - {fileID: 11400000, guid: 539d8b18591131f4bbd5e668c81b410f, type: 2}
+  - {fileID: 11400000, guid: 4f748def34d1d7243a7a07213740b3fc, type: 2}
+  - {fileID: 11400000, guid: cb71e41deb3342d498479d713c90bc2b, type: 2}
+  bossOrder:
+  - {fileID: 11400000, guid: 7941c80ba11b58144bc937be7203b13f, type: 2}
+  - {fileID: 11400000, guid: fc3411c1881f16748aa51d419fb225bb, type: 2}
+  - {fileID: 11400000, guid: 1a593b351f8edef4abe3ccd81ccdf3a1, type: 2}
+  - {fileID: 11400000, guid: 08ee3b2a2ecb026439c3ad8e9b31f9f2, type: 2}
+  - {fileID: 11400000, guid: 53be7c0a07654d647a864a7d5a22f568, type: 2}
+  - {fileID: 11400000, guid: f44177f89be3e8b47b5a36a94b81f1fe, type: 2}
+  - {fileID: 11400000, guid: c7aa4b131772fa844927d11935113148, type: 2}
+  - {fileID: 11400000, guid: fc096681b4d854443ba8c2bc6d64cb57, type: 2}
+  - {fileID: 11400000, guid: 47dbf1a2391b70941a4cc60551a88dbb, type: 2}
+  - {fileID: 11400000, guid: ec5ecee3e56de474ca8977444ab176d5, type: 2}
+  - {fileID: 11400000, guid: 2e3f43a45d04dcd4a80dd9fb708c3c89, type: 2}
+  asteroidHuge:
+  - {fileID: 8869476336097629157, guid: a928b6b7e9852c6429b1e3022b0ca7ed, type: 3}
+  - {fileID: 3525697572991576568, guid: 70c536de7d9d92449ae52a7ff80766e1, type: 3}
+  - {fileID: 6192019827025467921, guid: 46fd36c0039a3de4e8a017dd1652a1c9, type: 3}
+  asteroidBig:
+  - {fileID: 3955418798240587005, guid: 18bb600265b4a4a4fa29f69b9f5b8404, type: 3}
+  - {fileID: 6542101368399430838, guid: 5c3659959ebb30a489d7eef3009f8afc, type: 3}
+  - {fileID: 122214560388886015, guid: 0cc97290e5be8a24a95be78aef2fc1a6, type: 3}
+  - {fileID: 1416072628507055035, guid: 0d18f1a7832f6a44fa77efb30bde703e, type: 3}
+  asteroidMed:
+  - {fileID: 6747026704579016348, guid: ae4d463454dcd3f4f8546cef1366ff03, type: 3}
+  - {fileID: 3592861495988656133, guid: a605a9cb8e6a23444baef3434392fdb5, type: 3}
+  - {fileID: 6554404179560890419, guid: 10eda568a7de7e04693212985f98844e, type: 3}
+  - {fileID: 7979792204202706108, guid: a4f6c7d73f99033429f262bcba1bdeb8, type: 3}
+  - {fileID: 1082700227081861820, guid: 65ee5b4a801d6d44eb112962bd3246e2, type: 3}
+  asteroidSmall:
+  - {fileID: 1273717868519207366, guid: 0b41583a19866d64b9483e371372b152, type: 3}
+  - {fileID: 172733410043596393, guid: df633265b44cbf44eae676819a0f1900, type: 3}
+  - {fileID: 1829189280640820382, guid: 97fc4a6e44a6aed4a9f7e4f0a4e48bc3, type: 3}
+  - {fileID: 8266873878386540212, guid: 04d0e694d442538469994e2367f412b4, type: 3}
+  - {fileID: 1187051454626278293, guid: 7e73d8cc1e09492498f76df02fb52fbf, type: 3}
+  - {fileID: 72295631480350893, guid: 73d0578dde8635c4db633cbe78f8af97, type: 3}
+  playerBulletPrefab: {fileID: 8921008658350304446, guid: 6bc7d384083effb41bcc45889ef5f951, type: 3}
+  bossBulletPrefab: {fileID: 6107964377022996310, guid: 7d16c7347243ec54fa9160f565efd527, type: 3}
+  explosionPrefab: {fileID: 100002, guid: cafecd3fc3b761c45bb1553f35cf5c96, type: 3}
+  muzzleFlashPrefab: {fileID: 100002, guid: 565cdc2ed7b030a41accd8f00ae59a50, type: 3}
+  baseAsteroidCount: 5
+  asteroidsPerLevel: 2
+  baseAsteroidSpeed: 1.5
+  asteroidSpeedPerLevel: 0.2
+  baseSpawnInterval: 2
+  minSpawnInterval: 0.3
+  spawnIntervalReduction: 0.1
+  pointsSmallAsteroid: 100
+  pointsMedAsteroid: 75
+  pointsBigAsteroid: 50
+  pointsHugeAsteroid: 25

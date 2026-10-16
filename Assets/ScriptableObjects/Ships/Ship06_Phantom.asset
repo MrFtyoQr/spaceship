@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13e8a1a4df0cd04daed9d35d1b8031e, type: 3}
+  m_Name: Ship06_Phantom
+  m_EditorClassIdentifier: Assembly-CSharp::ShipData
+  shipName: Phantom
+  shipIndex: 5
+  prefab: {fileID: 986816037214571295, guid: b5654c55b1f15eb4bac0b2daf0f6781e, type: 3}
+  icon: {fileID: -223799344, guid: 577f8c935f1fdca4b9a5f4c4be6becf7, type: 3}
+  description: A balanced ship with rapid fire.
+  moveSpeed: 5
+  rotationSpeed: 300
+  fireRate: 5
+  bulletDamage: 0.8
+  bulletSpeed: 11.5
+  maxHealth: 130
+  unlockCost: 5000

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13e8a1a4df0cd04daed9d35d1b8031e, type: 3}
+  m_Name: Ship14_Eclipse
+  m_EditorClassIdentifier: Assembly-CSharp::ShipData
+  shipName: Eclipse
+  shipIndex: 13
+  prefab: {fileID: 5599132874503969991, guid: 4774a542c19c366469b436cd8c319bbc, type: 3}
+  icon: {fileID: 296169839, guid: d967cccf1642aa1419174612b92c3feb, type: 3}
+  description: A balanced ship with powerful shots.
+  moveSpeed: 6
+  rotationSpeed: 300
+  fireRate: 4
+  bulletDamage: 2.5
+  bulletSpeed: 13.900001
+  maxHealth: 90
+  unlockCost: 39000
